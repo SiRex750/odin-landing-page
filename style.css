@@ -48,6 +48,7 @@ ul {
     padding: 64px 128px;
     display: flex;
     gap: 64px;
+    flex-wrap: wrap;
 }
 
 .cont1 .title {
@@ -174,14 +175,17 @@ ul {
     background-color: #3882f6;
     margin: 32px 128px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     border-radius: 20px;
     padding: 32px;
+    align-items: center;
+    flex-basis: 1024px;
+    
 }
 
 .cont3 .sign-up {
     border: 2px solid #f9faf8;
-    margin: 64px 128px;
+    
 }
 
 .cont3 .title {
@@ -193,9 +197,9 @@ ul {
 .left {
     display: flex;
     justify-content: center;
-    margin: auto 128px;
     flex-direction: column;
     gap: 16px;
+    max-width: 512px;
 }
 
 .cont3 .text {
@@ -214,4 +218,6 @@ ul {
     color: #e5e7eb;
 }
 
-
+.cont1 {
+    max-width: 800px;
+}
